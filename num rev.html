@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVERSAL</title>
+    <link rel="stylesheet" href="num rev.css">
+</head>
+<body>
+    <div>
+        <center class="cen" id="cen">NUMBER REVERSAL</center>
+    </div>
+    <div>
+        <center id="numpad">
+            <div class="input">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="text" placeholder="Enter a Number " aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" onclick="revertit()">REVERT</button>
+                  </form>
+            </div>
+            <div class="num">
+                <button id="b0" class="b" onclick="clicked(1)">1</button>
+                <button id="b1" class="b x" onclick="clicked(2)">2</button>
+                <button id="b2" class="b x" onclick="clicked(3)">3</button>
+            </div>
+
+            <div class="num">
+                <button id="b3" class="b" onclick="clicked(4)">4</button>
+                <button id="b4" class="b x" onclick="clicked(5)">5</button>
+                <button id="b5" class="b x" onclick="clicked(6)">6</button>
+            </div>
+
+            <div class="num">
+                <button id="b6" class="b" onclick="clicked(7)">7</button>
+                <button id="b7" class="b x" onclick="clicked(8)">8</button>
+                <button id="b8" class="b x" onclick="clicked(9)">9</button>
+            </div>
+
+            <div class="num">
+                <button id="b9" class="b" onclick="clicked(0)">0</button>
+            </div>
+            <div class="num">
+                <button id="b11" class="b" onclick="revert()">REVERT</button>
+            </div>
+        </center>
+    </div>
+
+    <script src="num rev.js"></script>
+</body>
+</html>

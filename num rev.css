@@ -1,0 +1,54 @@
+*{
+    /* background: #000; */
+    margin: 0;
+}
+
+body{
+    background: #000;
+}
+
+.cen{
+    font-size: 50px;
+    color: white;
+    background: rgb(14, 35, 53);
+    
+}
+
+#numpad{
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.num{
+    font-size: 20px;
+    margin: 0px;
+}
+
+.b{
+    font-size: 20px;
+    margin-top: 4px;
+    background: rgb(33, 231, 238);
+}
+
+.b:hover{
+    background: navy;
+    color: whitesmoke;
+}
+#b11{
+    background: white;
+}
+#b11:hover{
+    background: #000;
+    color: white;
+}
+.x{
+    margin-left: 0px;
+}
+
+.sym{
+    font-size: 20px;
+    margin-top: 5px;
+    position: unset;
+    margin-left: 10px;
+    background: rgb(33, 231, 238);
+}
